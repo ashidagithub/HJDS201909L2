@@ -3,7 +3,8 @@
 
 #a = False
 
-a = (1>0) and (-1>0)  #False
+a = (1>0) or (-1>0)  #False
+print(a)
 
 if not a :
     print('True')
